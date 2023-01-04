@@ -46,7 +46,7 @@ class Migration(migrations.Migration):
                     auto_now=True, verbose_name='done at')),
                 ('traceback', models.TextField(
                     blank=True, null=True, verbose_name='traceback')),
-                ('hidden', models.BooleanField(
+                ('hidden_result', models.BooleanField(
                     db_index=True, default=False, editable=False)),
                 ('meta', models.TextField(default=None, editable=False,
                                           null=True)),
