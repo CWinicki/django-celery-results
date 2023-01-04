@@ -32,7 +32,7 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterField(
             model_name='taskresult',
-            name='hidden',
+            name='hidden_result',
             field=models.BooleanField(db_index=True, default=False, editable=False, help_text='Soft Delete flag that can be used instead of full delete', verbose_name='Hidden'),
         ),
         migrations.AlterField(
